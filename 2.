@@ -1,0 +1,10 @@
+#!/bin/bash
+echo "digite o primeiro diretorio"
+read DIR1
+echo "digite o segundo diretorio"
+read DIR2
+
+echo "mostrando primeiro diretorio"
+ls ${DIR1}
+echo "mostrando segundo diretorio"
+ls ${DIR2}
