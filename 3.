@@ -1,0 +1,6 @@
+#!/bin/bash
+DIR1="${1}"
+DIR2="${2}"
+
+ls ${DIR1}
+ls ${DIR2}
