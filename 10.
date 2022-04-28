@@ -1,0 +1,7 @@
+#!/bin/bash
+echo digite um numero
+read num
+if [ $((${num}%2)) -eq 0 ]
+then echo par
+else echo impar
+fi 
