@@ -1,0 +1,6 @@
+#!/bin/bash
+DATA=$(date +%Y-%B-%a-%H-%M)
+
+mkdir ~/tmp/${DATA}
+
+cp -R ~dir1/. ~/tmp/${DATA}
