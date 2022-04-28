@@ -1,0 +1,4 @@
+!/bin/bash
+echo 'digite um numero inteiro!'
+read y
+echo $((${y}+1))
