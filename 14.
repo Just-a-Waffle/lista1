@@ -1,0 +1,5 @@
+#!/bin/bash
+arquivo=${1} 
+numero=${2}
+
+head -${2} ${1} | tail +${2}
