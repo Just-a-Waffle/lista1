@@ -1,0 +1,12 @@
+#!/bin/bash
+DATA=$(date +%Y-%B-%a-%H-%M)
+
+mkdir ~/tmp/${DATA}
+
+cp -R ~/dir1/. ~/tmp/${DATA}
+
+tar -zcvf ~/tmp/data.tar.gz ~/tmp/${DATA}
+
+rm -r ~/tmp/${DATA} 
+
+cp ~/tmp/data.tar.gz ~/dir1
