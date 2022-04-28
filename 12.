@@ -1,0 +1,6 @@
+#!/bin/bash
+cat  /etc/passwd
+echo usuarios de bin/bash:
+grep "/bin/bash" /etc/passwd | wc -l
+echo "nao usuarios de bin/bash:" 
+echo $(( $(wc -l < /etc/passwd) - $(grep "/bin/bash" /etc/passwd | wc -l) )) 
